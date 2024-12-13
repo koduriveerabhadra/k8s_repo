@@ -24,7 +24,7 @@ kind: Service
 metadata:
   name: myserve
 spec:
-  type: LoadBalancer
+  type: NordPort
   selector:
     app: swiggy
   ports:
